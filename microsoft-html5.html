@@ -18,18 +18,24 @@
     a:visited {
       color:#0099cc;
 }
+    #page-wrapper{
+      width: 800px;
+      background-image:url("msft_faux_columns.png");
+}
     nav#sidebar-nav a {
       font-weight:bold;
       font-size:small;
 }
+    
     #toolbar{
       width:100%;
       height:20px;
       background-color:black;
-      /* overflow:hidden; */
+      overflow:hidden;
 }
     #toolbar ul{
       padding:0;
+      margin: 0;
 }
     #toolbar ul li{
       float:left;
@@ -43,8 +49,9 @@
       padding-left: 0;
 }
     div#sidebar {
+      float:left;
       font-size:smaller; 
-      background-color:#FFCC00; 
+      /*background-color:#FFCC00;*/ 
       width:110px; 
       padding:3px;
 }
@@ -64,11 +71,14 @@
     text-align:center; 
     width:550px;
     clear:both;
+    background:white;
     padding-top:4px;
 }
     #content {
+    float: left;
     width: 620px; 
     padding:3px;
+    margin-left:26px;
 }
     img[alt="MICROSOFT: Where do you want to go today?"] {
        display: block; 
@@ -81,11 +91,15 @@
     nav#news {
     margin-bottom:32px
 }
+    #ad-rotator{
+      margin-left:136px;
+}
 
     
     </style>
     </HEAD>
     <BODY>
+    <div id="page-wrapper">
         <!--TOOLBAR_START-->
         <nav id="toolbar">
             <ul>
@@ -204,6 +218,6 @@
 
             <br><A HREF="#" TARGET="_top">Information about Microsoft.com architecture</A>
         </footer>
-
+      </div>
     </BODY>
 </HTML>
